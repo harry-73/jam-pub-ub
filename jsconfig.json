@@ -1,0 +1,77 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/local_collection_driver.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/collection/collection.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/asynchronous_cursor.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/doc_fetcher.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/mongo_common.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/mongo_connection.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/mongo_driver.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/mongo_utils.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/oplog_observe_driver.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/collection/collection_utils.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/collection/methods_async.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/collection/methods_index.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/collection/methods_replication.js",
+        "/home/harry/.meteor/packages/mongo/2.1.1/web.browser/collection/methods_sync.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/harry/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/harry/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/home/harry/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/home/harry/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/home/harry/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/home/harry/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/harry/.meteor/packages/ecmascript/0.16.10/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/harry/.meteor/packages/shell-server/0.6.1/web.browser/main.js",
+        "/home/harry/.meteor/packages/shell-server/0.6.1/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/harry/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/home/harry/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/home/harry/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ],
+      "meteor/jorgenvatle:vite": [
+        "/home/harry/.meteor/packages/jorgenvatle_vite/1.5.2/web.browser/dist/server.js"
+      ],
+      "meteor/jam:pub-sub": [
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/client.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/server.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/cache.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/config.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/ddp.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/mongo.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/publish.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/subs-cache.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/subscribe.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/utils/client.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/utils/server.js",
+        "/home/harry/.meteor/packages/jam_pub-sub/0.4.2/web.browser/lib/utils/shared.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
