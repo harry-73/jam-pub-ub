@@ -6,7 +6,7 @@ export const LinksCollection = new Mongo.Collection("links", {
 });
 
 if (Meteor.isServer) {
-	Meteor.publish.strean("links", function () {
+	Meteor.publish.stream("links", function () {
 		return LinksCollection.find(
 			{},
 			{ projection: { _id: 1, url: 1, title: 1 } }
