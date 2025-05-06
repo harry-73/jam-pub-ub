@@ -6,7 +6,10 @@ export const LinksCollection = new Mongo.Collection("links", {
 });
 
 if (Meteor.isServer) {
-	Meteor.publish.stream("link", function () {
-		return LinksCollection.find({}, { fields: { _id: 1, url: 1, title: 1 } });
+	Meteor.publish.strean("links", function () {
+		return LinksCollection.find(
+			{},
+			{ projection: { _id: 1, url: 1, title: 1 } }
+		);
 	});
 }
